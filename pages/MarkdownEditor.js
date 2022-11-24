@@ -46,9 +46,9 @@ const MarkdownEditor = ({ toggleCreate, activeNote, setToggleCreate, setNotes })
     
 
     useEffect(() => {
-        if (!toggleCreate) {
-            setInput(activeNote.content)
-            setTitle(activeNote.title)
+        if (toggleCreate == false) {
+            setInput(activeNote.content);
+            setTitle(activeNote.title);
         }; 
     }, [toggleCreate])
 

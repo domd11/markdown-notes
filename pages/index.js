@@ -25,8 +25,8 @@ function App() {
   }
 
   const deleteNote = async (note) => {
-    location.reload()
     await deleteDoc(doc(db, "notes", note.id))
+    location.reload()
   }
 
   const getActiveNote = async (note) => {

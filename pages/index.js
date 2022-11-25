@@ -52,7 +52,7 @@ useEffect(() => {
       <ul>
         {notes ? (
           notes.map((note) => {
-            return <div key={Math.random()} onClick={() => getActiveNote(note)}><li>{note.title}</li><button onClick={() => deleteNote(note)}>Delete</button></div>
+            return <div key={Math.random()} onClick={() => getActiveNote(note)}><li className="note">{note.title}</li><button onClick={() => deleteNote(note)}>Delete</button></div>
           })
         ) : ""}
       </ul>

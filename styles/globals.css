@@ -31,13 +31,13 @@ a {
   padding: 10px;
 }
 
-li {
+.note {
   padding: 5px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
-li:hover {
+.note:hover {
   background-color: yellow;
   cursor: pointer;
   width: fit-content;

@@ -50,6 +50,9 @@ a {
   padding: 10px;
 }
 
+a {
+  color: blue;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
